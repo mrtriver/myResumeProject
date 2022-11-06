@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*, body{
+margin:0;
+padding: 0;
+box-sizing:border-box;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+body{
+    background-color:whitesmoke;
+}
+main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns:33% 1fr;
+    grid-gap:1rem;
+
+}
+.left{
+    background-color:rgb(254, 218, 204);
+}
+
+.left-image{
+    position: relative;
+}
+.left-image img{
+   width: 100%; 
+}
+
+.left-image h2{
+position: absolute;
+bottom: 3%;
+left: 1rem;
+}
+
+ul{
+    list-style: none;
+}
+
+.personal, .skills, .languages{
+    padding: 1pc;
+    line-height: 1.5;
+}
+ul li progress{
+    columns: rgb(83,90,143);
+}
+ol{
+    padding: 2em;
+    
+}
+
+.current{
+    background-color:rgb(217, 178, 163);
+    color:white;
+    padding: 0.2rem;
+    border-radius: 3px;
+}
+.date{
+    color: green;
+}
+
+
+.experience{
+    line-height: 2;
+}
+
+.experience ul {
+    margin: 2rem,0;
+    
+}
+
+
+
+.right{
+    background-color:rgb(254, 218, 204);
+    padding: 1rem;
+}
